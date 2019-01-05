@@ -9,7 +9,7 @@ public class Grid {
     public Grid(int width, int height) {
         this.height = height;
         this.width = width;
-        this.grid = new boolean [width][height];
+        this.grid = new boolean[width][height];
     }
 
     public int getHeight() {
@@ -32,11 +32,13 @@ public class Grid {
     public int countNeighbors(int x, int y) {
         int count = 0;
 
-        for(int i = -1; i < 2; i++){
-            for (int j = -1; j < 2; j++){
-                if (isAlive(x + i, y + j)){
-                    if(isNotSelf(i, j)) {
-                        count++;
+        for (int i = -1; i < 2; i++) {
+            for (int j = -1; j < 2; j++) {
+                if (isInGrid(x+i, y+j)) {
+                    if (isAlive(x + i, y + j)) {
+                        if (isNotSelf(i, j)) {
+                            count++;
+                        }
                     }
                 }
             }
@@ -44,8 +46,14 @@ public class Grid {
         return count;
     }
 
+    private boolean isInGrid(int i, int j) {
+        if (i < 0 || i >= width) return false;
+        if (j < 0 || j >= height) return false;
+        return true;
+    }
+
     private boolean isNotSelf(int i, int j) {
-        return i != 0 || j !=0;
+        return i != 0 || j != 0;
     }
 
     private boolean isAlive(int i, int i2) {

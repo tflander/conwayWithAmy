@@ -66,7 +66,7 @@ public class GridTest {
     }
 
     @Test
-    public void countNeighborsWhenCellIsAtZeroZero() {
+    public void countNeighborsWhenCellIsAtTopLeft() {
         grid.setCell(0, 0, true);
         grid.setCell(0,1, true);
         grid.setCell(1,0, true);
@@ -77,6 +77,27 @@ public class GridTest {
         assertThat(neighbors).isEqualTo(3);
     }
 
+    @Test
+    public void countNeighborsWhenCellIsAtBottomRight() {
+        grid.setCell(18, 28, true);
+        grid.setCell(18,29, true);
+        grid.setCell(19,28, true);
+        grid.setCell(19,29, true);
+
+        int neighbors = grid.countNeighbors(19,29);
+
+        assertThat(neighbors).isEqualTo(3);
+        showGrid();
+    }
+
+    private void showGrid() {
+        for (int i = 0; i < grid.width; ++i) {
+            for (int j = 0; j < grid.height; ++j) {
+                System.out.print(grid.getCell(i,j) ? "X" : ".");
+            }
+            System.out.println();
+        }
+    }
 
 
 }

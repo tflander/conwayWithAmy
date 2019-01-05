@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7b53805-01d9-48e9-9ef8-fd016b9b0bc4" name="Default Changelist" comment="" />
+    <list default="true" id="c7b53805-01d9-48e9-9ef8-fd016b9b0bc4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/conway/Grid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/conway/Grid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/conway/FooTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/conway/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conway/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/conway/FooTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/conway/GridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/conway/GridTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +27,10 @@
     <session id="-1206001475">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,38 +48,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="3" />
-          <entry key="java" value="1123" />
+          <entry key="java" value="1392" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="1123" />
+          <entry key="JAVA" value="1392" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/conway/FooTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#98#99#0" expanded="true" />
-                <element signature="e#119#120#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/conway/GridTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
+            <state relative-caret-position="402">
+              <caret line="97" column="31" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,19 +76,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/conway/Grid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+            <state relative-caret-position="651">
+              <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
               <folding>
-                <element signature="e#108#109#0" expanded="true" />
-                <element signature="e#131#132#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
                 <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="e#1212#1213#0" expanded="true" />
+                <element signature="e#1258#1259#0" expanded="true" />
+                <element signature="e#1292#1293#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,6 +112,9 @@
     <replaceStrings>
       <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -442,17 +436,20 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="815" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -470,6 +467,21 @@
               <item name="conway" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="conway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conway" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="conway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conway" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="conway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="conway" type="b2602c69:ProjectViewProjectNode" />
@@ -496,11 +508,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542468553777" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546647442142" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
@@ -522,7 +533,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GridTest.countNeighborsWhenCellIsAtZeroZero">
+  <component name="RunManager" selected="JUnit.GridTest.countNeighborsWhenCellIsAtBottomRight">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -584,6 +595,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GridTest.countNeighborsWhenCellIsAtBottomRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="conway_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="conway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="conway" />
+      <option name="MAIN_CLASS_NAME" value="conway.GridTest" />
+      <option name="METHOD_NAME" value="countNeighborsWhenCellIsAtBottomRight" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GridTest.countNeighborsWhenCellIsAtZeroZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="conway_test" />
       <extension name="coverage">
@@ -595,23 +623,6 @@
       <option name="PACKAGE_NAME" value="conway" />
       <option name="MAIN_CLASS_NAME" value="conway.GridTest" />
       <option name="METHOD_NAME" value="countNeighborsWhenCellIsAtZeroZero" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GridTest.setDeadGridValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="conway_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="conway.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="conway" />
-      <option name="MAIN_CLASS_NAME" value="conway.GridTest" />
-      <option name="METHOD_NAME" value="setDeadGridValue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -642,19 +653,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GridTest.setDeadGridValue" />
       <item itemvalue="JUnit.GridTest" />
       <item itemvalue="JUnit.GridTest.countNeighborsWhenAllNeighborsAreDead" />
       <item itemvalue="JUnit.GridTest.countNeighborsWhenAllNeighborsAreAlive" />
       <item itemvalue="JUnit.GridTest.countNeighborsWhenCellIsAtZeroZero" />
+      <item itemvalue="JUnit.GridTest.countNeighborsWhenCellIsAtBottomRight" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GridTest.countNeighborsWhenCellIsAtZeroZero" />
+        <item itemvalue="JUnit.GridTest.countNeighborsWhenCellIsAtBottomRight" />
         <item itemvalue="JUnit.GridTest" />
+        <item itemvalue="JUnit.GridTest.countNeighborsWhenCellIsAtZeroZero" />
         <item itemvalue="JUnit.GridTest.countNeighborsWhenAllNeighborsAreAlive" />
         <item itemvalue="JUnit.GridTest.countNeighborsWhenAllNeighborsAreDead" />
-        <item itemvalue="JUnit.GridTest.setDeadGridValue" />
       </list>
     </recent_temporary>
   </component>
@@ -672,69 +683,69 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GridTest_countNeighborsWhenAllNeighborsAreDead - 2018.11.17 at 10h 16m 22s.xml">
-      <configuration name="GridTest.countNeighborsWhenAllNeighborsAreDead" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GridTest_countNeighborsWhenAllNeighborsAreAlive - 2018.11.17 at 10h 16m 55s.xml">
-      <configuration name="GridTest.countNeighborsWhenAllNeighborsAreAlive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GridTest_countNeighborsWhenAllNeighborsAreAlive - 2018.11.17 at 10h 18m 14s.xml">
-      <configuration name="GridTest.countNeighborsWhenAllNeighborsAreAlive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GridTest_countNeighborsWhenAllNeighborsAreAlive - 2018.11.17 at 10h 21m 42s.xml">
-      <configuration name="GridTest.countNeighborsWhenAllNeighborsAreAlive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GridTest_countNeighborsWhenAllNeighborsAreAlive - 2018.11.17 at 10h 22m 39s.xml">
-      <configuration name="GridTest.countNeighborsWhenAllNeighborsAreAlive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GridTest_countNeighborsWhenAllNeighborsAreAlive - 2018.11.17 at 10h 23m 36s.xml">
-      <configuration name="GridTest.countNeighborsWhenAllNeighborsAreAlive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GridTest_countNeighborsWhenAllNeighborsAreAlive - 2018.11.17 at 10h 24m 52s.xml">
-      <configuration name="GridTest.countNeighborsWhenAllNeighborsAreAlive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GridTest_countNeighborsWhenAllNeighborsAreAlive - 2018.11.17 at 10h 25m 41s.xml">
-      <configuration name="GridTest.countNeighborsWhenAllNeighborsAreAlive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GridTest_countNeighborsWhenAllNeighborsAreAlive - 2018.11.17 at 10h 27m 22s.xml">
-      <configuration name="GridTest.countNeighborsWhenAllNeighborsAreAlive" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GridTest - 2018.11.17 at 10h 27m 25s.xml">
       <configuration name="GridTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GridTest_countNeighborsWhenCellIsAtZeroZero - 2018.11.17 at 10h 29m 21s.xml">
+      <configuration name="GridTest.countNeighborsWhenCellIsAtZeroZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GridTest - 2019.01.04 at 19h 04m 45s.xml">
+      <configuration name="GridTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GridTest - 2019.01.04 at 19h 07m 37s.xml">
+      <configuration name="GridTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GridTest - 2019.01.04 at 19h 08m 29s.xml">
+      <configuration name="GridTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GridTest - 2019.01.04 at 19h 09m 11s.xml">
+      <configuration name="GridTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GridTest - 2019.01.04 at 19h 09m 57s.xml">
+      <configuration name="GridTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GridTest - 2019.01.04 at 19h 12m 09s.xml">
+      <configuration name="GridTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GridTest - 2019.01.04 at 19h 13m 18s.xml">
+      <configuration name="GridTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GridTest_countNeighborsWhenCellIsAtBottomRight - 2019.01.04 at 19h 17m 13s.xml">
+      <configuration name="GridTest.countNeighborsWhenCellIsAtBottomRight" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="815" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32871014" />
-      <window_info anchor="bottom" id="Messages" weight="0.32871014" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32871014" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32780084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994452" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32780084" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32871014" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32871014" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -750,39 +761,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/conway/FooTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/conway/Grid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        <state relative-caret-position="651">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
           <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
             <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/conway/GridTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
+        <state relative-caret-position="402">
+          <caret line="97" column="31" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
